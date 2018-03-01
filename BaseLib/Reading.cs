@@ -21,7 +21,7 @@ namespace Fei.BaseLib
             {
                 return number;
             }
-            throw new Exception("Invalid text");
+            throw new FormatException("Invalid text");
         }
 
         /// <summary>
@@ -36,7 +36,7 @@ namespace Fei.BaseLib
             {
                 return number;
             }
-            throw new Exception("Invalid text");
+            throw new FormatException();
         }
 
         /// <summary>
@@ -51,7 +51,7 @@ namespace Fei.BaseLib
             {
                 return number;
             }
-            throw new Exception("Invalid text");
+            throw new FormatException();
         }
 
         /// <summary>

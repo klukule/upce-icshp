@@ -12,7 +12,7 @@ namespace CV02PR02
         /// The menu defines
         /// </summary>
         private static (string, Action)[] Menu = new(string, Action)[]
-                {
+        {
             ("Add/Edit element", ArrayWorker.AddElement),
             ("Print the array", ArrayWorker.PrintArray),
             ("Sort array in ascending order", ArrayWorker.SortAsc),
@@ -20,8 +20,8 @@ namespace CV02PR02
             ("Find smallest element in array", ArrayWorker.FindSmallestNumber),
             ("Find first occurance of specified number", ArrayWorker.FindFirstOccurance),
             ("Find last occurance of specified number", ArrayWorker.FindLastOccurance),
-            ("Exit", ()=>Environment.Exit(0)),
-                };
+            ("Exit", ()=>Environment.Exit(0))
+        };
 
         /// <summary>
         /// Defines the entry point of the application.
